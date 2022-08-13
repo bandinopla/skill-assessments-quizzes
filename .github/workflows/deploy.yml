@@ -25,6 +25,7 @@ jobs:
       - name: Build
         run: |
           npm i --legacy-peer-deps
+          npm run import-images
           npm run build
           npm run export
       - name: Deploy
