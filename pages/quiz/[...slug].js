@@ -14,15 +14,21 @@ import ScoreDisplay from "../../components/ScoreDisplay";
 import { QuizContext } from "../../lib/QuizContext";
 import { useQuizSolvedState } from "../../lib/QuizSolvedState";
 
+
+const questionQueryName = 'question';
+
 /**
  * @param {{ quiz:import('../../lib/api').Quiz, question:number, lang:string, availableLanguages:string[] }} param0
  * @returns
  */
-const Quiz = ({ quiz, question, availableLanguages }) => {
+const Quiz = ({ quiz, availableLanguages }) => {
+
 	const router = useRouter();
-	const totalQuestions = quiz.questions.length;
-	const questionIndex = question - 1;
-	const rightAnswer = quiz.questions[questionIndex].answer;
+
+    const question          = parseInt( router.query.question ) || 1;
+	const totalQuestions    = quiz.questions.length;
+	const questionIndex     = question - 1;
+	const rightAnswer       = quiz.questions[questionIndex].answer;
 	const state = useQuizSolvedState({
 		quizID: quiz.folder,
 		questionIndex,
@@ -30,7 +36,9 @@ const Quiz = ({ quiz, question, availableLanguages }) => {
 
 	//console.log( router.query.caca )
 
-    const goToQuestion = i => router.push(router.asPath.replace(/\d+$/, i));
+    const goToQuestion = i => {
+        router.push( router.asPath.split("?")[0]+`?${questionQueryName}=${i}` );  
+    }
 
 	//
 	// move forward or backwards in the quiz...
@@ -69,7 +77,7 @@ const Quiz = ({ quiz, question, availableLanguages }) => {
 
                 { availableLanguages.map( ({ key, name, isSelected })=>
                     <span key={key} className={"mx-2 p-2 " + (isSelected? " bg-slate-200 rounded font-bold":"") }>
-                        <Link href={"/quiz/"+(key=='en'?"":key+"/")+quiz.folder+"/"+question}>{name}</Link>
+                        <Link href={"/quiz/"+(key=='en'?"":key+"/")+quiz.folder+"?"+questionQueryName+"="+question}>{name}</Link>
                     </span> )}
 
 				
@@ -135,14 +143,8 @@ export function getStaticPaths() {
             for (let lang in quiz.pathByLang )
             { 
 
-                const quizPath = quiz.pathByLang[lang]; 
-
-
-                //
-                // this is heavy, but since this only ran at build time... no problem.
-                //
-                const parsedQuiz = parseQuiz( quizPath );
-                const slugParams = [quiz.folder];
+                const quizPath      = quiz.pathByLang[lang];   
+                const slugParams    = [quiz.folder];
 
                 //
                 // default language "english" doesn't need a specific slug key, only the rest.
@@ -152,17 +154,10 @@ export function getStaticPaths() {
                     slugParams.unshift(lang); 
                 }
 
-                //
-                // for each question in que quiz...
-                // (all languages should have the same amount of questions obviously...)
-                //
-                parsedQuiz.questions.forEach((_, i) => { 
-                    
-                    pathVariants.push({
-                        params: {
-                            slug: [ ...slugParams, (i + 1).toString()],
-                        },
-                    });
+                pathVariants.push({
+                    params: {
+                        slug: [ ...slugParams ],
+                    },
                 });
             }
              
@@ -180,15 +175,15 @@ export function getStaticProps({ params }) {
  
     let lang        = 'en';
 
-    if( params.slug.length==3 )
+    if( params.slug.length==2 )
     {
         lang = params.slug.shift();
     }
 
-    const quizID    = params.slug[0];  
-	const quiz      = getAllQuizzes(quizID)[0]; 
-    const availableLanguages = [];
-    const quizPath = quiz.pathByLang[lang];
+    const quizID                = params.slug[0];  
+	const quiz                  = getAllQuizzes(quizID)[0]; 
+    const availableLanguages    = [];
+    const quizPath              = quiz.pathByLang[lang];
 
     //
     // extract all available languages...
@@ -210,8 +205,7 @@ export function getStaticProps({ params }) {
                 folder: quiz.folder,
                 path: quizPath,
                 ...parseQuiz( quizPath )
-            },
-			question: Number(params.slug.pop()),
+            }, 
             lang,
             availableLanguages
 		},

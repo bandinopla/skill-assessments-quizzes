@@ -1,5 +1,9 @@
 import NavButton from "./NavButton";
 
+
+/**
+ * Score stats UI
+ */
 export default function ScoreDisplay({ correct, incorrect, total, onClickReset }) {
 	return (
 		<div className="p-2 text-center border border-dotted border-slate-200">

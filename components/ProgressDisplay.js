@@ -4,6 +4,8 @@ score2color.set(0, "bg-red-500");
 score2color.set(1, "bg-green-300");
 
 /**
+ * Displays the progress of the user in this quiz. 
+ * 
  * @param {{ totalQuestions:number, getQuestionStatus:(i:number)=>number, currentQuestion:number, onClickQuestion:(i:number)=>void }} param0
  */
 export default function ProgressDisplay({

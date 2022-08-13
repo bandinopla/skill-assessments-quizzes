@@ -4,6 +4,10 @@ import { useRef, useState } from "react";
 import BasicPageLayout from "../components/BasicPageLayout";
 import { getAllQuizzes } from "../lib/api";
 
+
+/**
+ * Main page of the app. Renders all available quizes and their respective logos.
+ */
 export default function Home({ quizzes }) {
 	const [searchTerm, setSearchTerm] = useState("");
 	const router = useRouter();
@@ -46,7 +50,7 @@ export default function Home({ quizzes }) {
 					)
 					.map((quiz, i) => (
 						<div key={i} className="float-left">
-							<Link href={"/quiz/" + encodeURIComponent(quiz.folder) + "/1"}>
+							<Link href={"/quiz/" + encodeURIComponent(quiz.folder)}>
 								<div
 									className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
 									style={{ width: 100, height: 100 }}

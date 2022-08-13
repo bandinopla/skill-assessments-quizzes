@@ -1,3 +1,6 @@
+/**
+ * Base layout : a white padded centered box with a title and a placeholder for the contents.
+ */
 export default function BasicPageLayout({ title, preTitle, children }) {
 	return (
 		<div className="container mx-auto ">
@@ -18,10 +21,7 @@ export default function BasicPageLayout({ title, preTitle, children }) {
 						</div>
 					</div>
 				</div>
-			</div>
-
-
-			
+			</div>  
 		</div>
 	);
 }
