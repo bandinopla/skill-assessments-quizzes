@@ -1,10 +1,13 @@
 {
   "private": true,
-  "scripts": {
+  "scripts": { 
+
     "dev": "next dev",
-    "build": "next build && next export",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
+    "export": "next export",
+    "build": "next build",
+    "start": "next start",  
     "import-images": "node scripts/import-images.js"
+    
   },
   "dependencies": {
     "glob": "^8.0.3",
