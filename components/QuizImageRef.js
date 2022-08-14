@@ -11,7 +11,17 @@ export default function QuizImageRef({ children, ...props }) {
     const router    = useRouter()
     const context   = useContext(QuizContext);
      
-    const basePath = router.basePath+"/"+context.quiz.path.replace(/(.*)\/[^\/]+\.md$/,"$1/"+props.src)
+    let imageSrc = props.src; 
+    
+    //
+    // only locally referenced images.
+    // if the path contains http:// etc... leave it as is...
+    //
+    if( !props.src.match(/^\s*https?\:\/\//) )
+    {
+         imageSrc = router.basePath+"/"+context.quiz.path.replace(/(.*)\/[^\/]+\.md$/,"$1/"+props.src)
+    }
+    
   
-    return <img className="p-8 max-w-full box-border" src={ basePath } alt={props.alt}/> 
+    return <img className="p-8 max-w-full box-border" src={ imageSrc } alt={props.alt}/> 
 }
