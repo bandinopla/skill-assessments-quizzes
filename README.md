@@ -19,7 +19,7 @@
 ![Quizzes on Many Topics](cover.jpg)
 
 UI for the quizzes found at [Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/)
-This proyects feeds from the data of that repo and creates a, hopefully, user friendly interface to easily navigate the quizzes and see the progress when doing them.
+This project feeds from the data of that repo and creates a, hopefully, user friendly interface to easily navigate the quizzes and see the progress when doing them.
 
 ---
 # :grey_question: How it works
@@ -30,7 +30,7 @@ This app extracts the quizzes from that repo and builds a user interface to allo
 
 ## <a id="imgs-extract"></a>:framed_picture: Getting the Images used in the quizzes
 
-When you start developing, make sure you have the latest copy of that submodule's repo and then run:
+When you start developing, make sure you have the latest copy of the data folder (`git pull --recurse-submodules`) and then run:
 
 ```
 yarn run import-images
@@ -87,7 +87,7 @@ this web app can be translated by creating a [YAML](https://yaml.org/) file in t
 use the `en.yaml` as base: duplicate it, rename it, and do your thing. The system will automatically scan that folder and find it once it builds.
 
 #### 2. Quizzes Translations
-to collab with the quizzes repo and transalte a quiz to another language head over to the [linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) clone that repo, make the translation in the respective quiz and solicit a pull request to them.
+to collab with the quizzes repo and transalte a quiz to another language head over to the [linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) fork that repo, make the translation in the respective quiz and solicit a pull request to them.
 
 ---
 ## <a id="contribute"></a>:computer: **Contribute with** Coding / Bug Fixing
