@@ -11,7 +11,7 @@ import QuizCodeSnipped from "../../components/QuizCodeSnipped";
 import QuizImageRef from "../../components/QuizImageRef";
 import QuizQuestionItem from "../../components/QuizQuestionItem";
 import ScoreDisplay from "../../components/ScoreDisplay";
-import { QuizContext } from "../../lib/QuizContext";
+import { QuizContext, QuizContextParams } from "../../lib/QuizContext";
 import { useQuizSolvedState } from "../../lib/QuizSolvedState";
 
 
@@ -23,7 +23,7 @@ const questionQueryName = 'question';
  */
 const Quiz = ({ quiz, availableLanguages }) => {
 
-	const router = useRouter();
+	const router            = useRouter();
 
     const question          = parseInt( router.query.question ) || 1;
 	const totalQuestions    = quiz.questions.length;
@@ -75,6 +75,9 @@ const Quiz = ({ quiz, availableLanguages }) => {
 			<div className="absolute top-0 right-0 p-2 m-2 px-4 ">
 
 
+                {/* 
+                    Render all available languages in which this quiz was translated 
+                 */}
                 { availableLanguages.map( ({ key, name, isSelected })=>
                     <span key={key} className={"mx-2 p-2 " + (isSelected? " bg-slate-200 rounded font-bold":"") }>
                         <Link href={"/quiz/"+(key=='en'?"":key+"/")+quiz.folder+"?"+questionQueryName+"="+question}>{name}</Link>
@@ -84,14 +87,13 @@ const Quiz = ({ quiz, availableLanguages }) => {
 			</div> 
 
 			<QuizContext.Provider
-				value={{
+				value={QuizContextParams({
 					quiz,
-					question,
-					optionIndex: -1,
+					question, 
 					answered: state.currentAnswer,
 					answer: rightAnswer,
 					onAnswer: (i) => state.answer(i, rightAnswer),
-				}}
+				})}
 			>
 				<ScoreDisplay
 					correct={state.correct}
@@ -131,11 +133,14 @@ const Quiz = ({ quiz, availableLanguages }) => {
 	);
 };
 
+
+/**
+ * Generates one path per quiz/language pair.
+ */
 export function getStaticPaths() {
 
 	return {
-		paths: getAllQuizzes().reduce((pathVariants, quiz) => {  
-             
+		paths: getAllQuizzes().reduce((pathVariants, quiz) => {   
 
             //
             // for each available language
@@ -170,6 +175,7 @@ export function getStaticPaths() {
 	};
 }
 
+
 export function getStaticProps({ params }) {
 
  
@@ -195,8 +201,7 @@ export function getStaticProps({ params }) {
             name: by639_1[langKey].nativeName,
             key: langKey
         })
-    }
-
+    } 
     
 	
 	return {

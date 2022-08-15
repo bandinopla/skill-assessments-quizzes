@@ -5,8 +5,11 @@ import BasicPageLayout from "../components/BasicPageLayout";
 import { getAllQuizzes } from "../lib/api";
 
 
-/**
+/**  
  * Main page of the app. Renders all available quizes and their respective logos.
+ * 
+ * @param {object} param0
+ * @param {import('../lib/api').Quiz[]} param0.quizzes
  */
 export default function Home({ quizzes }) {
 	const [searchTerm, setSearchTerm] = useState("");
@@ -18,8 +21,8 @@ export default function Home({ quizzes }) {
 		timer.current = setTimeout(() => setSearchTerm(term.trim()), 200);
 	};
 
-	return (
-		<BasicPageLayout
+	return (  
+		<BasicPageLayout 
 			preTitle="Alright! Let's Gooo!"
 			title={"Skill Assessments Quizzes"}
 		>
@@ -50,6 +53,7 @@ export default function Home({ quizzes }) {
 					)
 					.map((quiz, i) => (
 						<div key={i} className="float-left">
+                            
 							<Link href={"/quiz/" + encodeURIComponent(quiz.folder)}>
 								<div
 									className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"

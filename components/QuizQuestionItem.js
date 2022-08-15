@@ -6,10 +6,17 @@ import { QuizContext } from "../lib/QuizContext";
  * This items represents one option item of the many available in a question. 
  */
 export default function QuizQuestionItem({ children }) {
+    
+    /**
+     * @type {import('../lib/QuizContext').ContextType}
+     */
 	const quizContext = useContext(QuizContext);
 	const myIndex = ++quizContext.optionIndex;
 	let bg = "bg-white";
-
+ 
+    //
+    // Was the question answered?
+    //
 	if (quizContext.answered > -1) {
 		if (quizContext.answer == myIndex) {
 			bg = "bg-green-300";

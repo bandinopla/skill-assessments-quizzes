@@ -3,9 +3,7 @@ import "../styles/global.css";
 
 export default function MainApp({ Component, pageProps }) {
 
-    return <> 
-
-            
+    return <>  
         <Component {...pageProps}/>
     </>
 
