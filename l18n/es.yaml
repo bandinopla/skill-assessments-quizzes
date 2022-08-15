@@ -1,0 +1,22 @@
+CHEER : TODO LISTO! VAMOS!! 
+TITLE : Questionarios de evaluación de habilidades
+DESC : |
+        Colección de preguntas y respuestas sobre diferentes temas orientadas a
+        ayudarte a testear tu conocimiento antes de una importante entrevista de trabajo! 
+
+        Datos de __data__. UI por __bandinopla__
+
+FILTER_BY_NAME: Filtrar por nombre
+BACK_TO_HOME: Volver al inicio
+SCORE: Puntaje
+X_CORRECT: __X__ correctas
+X_INCORRECT: __X__ incorrectas
+X_UNANSWERED: __X__ sin responder
+BUTTON_RESET: Reiniciar
+BUTTON_PREVIOUS: Atrás
+BUTTON_NEXT: Siguente
+SOURCE_CODE: Código fuente
+QUIZ: Questionario
+QUIZ_AVAILABLE_IN: Questionario disponible en
+QUIZ_ONLY_AVAILABLE_IN: Questionario solo disponible en
+        

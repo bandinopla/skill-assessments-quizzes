@@ -1,3 +1,4 @@
+import { useLanguage } from "./LanguageProvider";
 import NavButton from "./NavButton";
 
 
@@ -5,22 +6,25 @@ import NavButton from "./NavButton";
  * Score stats UI
  */
 export default function ScoreDisplay({ correct, incorrect, total, onClickReset }) {
+
+    const dictionary        = useLanguage();
+
 	return (
-		<div className="p-2 text-center border border-dotted border-slate-200">
+		<div className="p-2 text-center ">
 
 
 
-			score{" "}
+			{ dictionary.SCORE + " "}
 			<span className="text-cyan-500 mx-2 font-bold">
 				%{Math.round((correct / total) * 100)}
 			</span>{" "}
-			(<span className="text-green-500 mx-1">{correct} correct</span>
-			<span className="text-red-500 mx-1">{incorrect} incorrect</span>
-			<span className="text-stone-500 mx-1">
-				{total - correct - incorrect} unanswered
+			(<span className="text-green-500 mx-1">{ dictionary.X_CORRECT.replace("__X__", correct)  }</span>
+			<span className="text-red-500 mx-1">{ dictionary.X_INCORRECT.replace("__X__", incorrect) }</span>
+			<span className="text-stone-500 mx-1">  
+                { dictionary.X_UNANSWERED.replace("__X__", total - correct - incorrect) }
 			</span>
 			)
-            <NavButton onClick={()=>onClickReset()}>Reset</NavButton>
+            <NavButton onClick={()=>onClickReset()}>{ dictionary.BUTTON_RESET }</NavButton>
 		</div>
 	);
 }

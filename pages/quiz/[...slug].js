@@ -13,18 +13,26 @@ import QuizQuestionItem from "../../components/QuizQuestionItem";
 import ScoreDisplay from "../../components/ScoreDisplay";
 import { QuizContext, QuizContextParams } from "../../lib/QuizContext";
 import { useQuizSolvedState } from "../../lib/QuizSolvedState";
+import { getDictionary } from '../../lib/l18n';
+import { useLanguage } from '../../components/LanguageProvider';
+import Head from "next/head"
 
 
 const questionQueryName = 'question';
 
 /**
- * @param {{ quiz:import('../../lib/api').Quiz, question:number, lang:string, availableLanguages:string[] }} param0
- * @returns
+ * 
+ * @param {object} param0
+ * @param {import('../../lib/api').Quiz} param0.quiz
+ * @param {number} param0.question
+ * @param {string} param0.lang
+ * @param {string[]} param0.availableLanguages 
+ *   
  */
 const Quiz = ({ quiz, availableLanguages }) => {
 
 	const router            = useRouter();
-
+    const dictionary        = useLanguage();
     const question          = parseInt( router.query.question ) || 1;
 	const totalQuestions    = quiz.questions.length;
 	const questionIndex     = question - 1;
@@ -37,7 +45,7 @@ const Quiz = ({ quiz, availableLanguages }) => {
 	//console.log( router.query.caca )
 
     const goToQuestion = i => {
-        router.push( router.asPath.split("?")[0]+`?${questionQueryName}=${i}` );  
+        router.push( dictionary.path( router.asPath.split("?")[0]+`?${questionQueryName}=${i}` ) );  
     }
 
 	//
@@ -66,11 +74,15 @@ const Quiz = ({ quiz, availableLanguages }) => {
 		return userAnswer < 0 ? -1 : userAnswer == rightAnswer ? 1 : 0;
 	};
 
-	return (
+	return (<>
+
+        <Head>
+            <title>{quiz.title}</title>
+        </Head>
 		<BasicPageLayout  title={quiz.title}>
 
             <div className="absolute top-0 left-0 p-2 m-2 px-4 ">
-                <Link href="/" >← back to home </Link>
+                <Link href={ dictionary.path("/") } >{ "← " + dictionary.BACK_TO_HOME}</Link>
             </div>
 			<div className="absolute top-0 right-0 p-2 m-2 px-4 ">
 
@@ -78,11 +90,8 @@ const Quiz = ({ quiz, availableLanguages }) => {
                 {/* 
                     Render all available languages in which this quiz was translated 
                  */}
-                { availableLanguages.map( ({ key, name, isSelected })=>
-                    <span key={key} className={"mx-2 p-2 " + (isSelected? " bg-slate-200 rounded font-bold":"") }>
-                        <Link href={"/quiz/"+(key=='en'?"":key+"/")+quiz.folder+"?"+questionQueryName+"="+question}>{name}</Link>
-                    </span> )}
-
+                
+                
 				
 			</div> 
 
@@ -109,6 +118,14 @@ const Quiz = ({ quiz, availableLanguages }) => {
 				/>
 
 				<br />
+
+                <div className='mb-4 text-sm text-center border border-dotted border-slate-200'>
+                    { availableLanguages.length==1? dictionary.QUIZ_ONLY_AVAILABLE_IN : dictionary.QUIZ_AVAILABLE_IN}: 
+                { availableLanguages.map( ({ key, name, isSelected })=>
+                    <span key={key} className={"mx p-2 " + (isSelected? " bg-slate-200 rounded font-bold":"") }>
+                        <Link href={ dictionary.path( "/quiz/"+(key=='en'?"":key+"/")+quiz.folder+"?"+questionQueryName+"="+question )}>{name}</Link>
+                    </span> )}</div>
+
 				<ReactMarkdown
 					components={{
 						li: QuizQuestionItem,
@@ -121,15 +138,18 @@ const Quiz = ({ quiz, availableLanguages }) => {
 			</QuizContext.Provider>
 
 			<div className="mt-10 text-center ">
-				<NavButton onClick={go(-1)}>Prev</NavButton> {question} of{" "}
-				{totalQuestions} <NavButton onClick={go(1)}>Next</NavButton>
+				<NavButton onClick={go(-1)}>{dictionary.BUTTON_PREVIOUS}</NavButton> {question} of{" "}
+				{totalQuestions} <NavButton onClick={go(1)}>{dictionary.BUTTON_NEXT}</NavButton>
 			</div>
 
             <div className="text-xs mt-10 border-t pt-1">
-                Quiz <a href={`https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/tree/main/${quiz.folder}`} target="_blank">source code</a>
+                {dictionary.QUIZ} <a href={`https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/tree/main/${quiz.folder}`} target="_blank">
+                    {dictionary.SOURCE_CODE}
+                </a>
             </div>
 
 		</BasicPageLayout>
+        </>
 	);
 };
 
@@ -178,7 +198,7 @@ export function getStaticPaths() {
 
 export function getStaticProps({ params }) {
 
- 
+  
     let lang        = 'en';
 
     if( params.slug.length==2 )
@@ -190,6 +210,7 @@ export function getStaticProps({ params }) {
 	const quiz                  = getAllQuizzes(quizID)[0]; 
     const availableLanguages    = [];
     const quizPath              = quiz.pathByLang[lang];
+    const dicc                  = getDictionary('en')
 
     //
     // extract all available languages...
@@ -212,7 +233,8 @@ export function getStaticProps({ params }) {
                 ...parseQuiz( quizPath )
             }, 
             lang,
-            availableLanguages
+            availableLanguages,
+            dictionary: dicc
 		},
 	};
 }

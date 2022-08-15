@@ -9,7 +9,10 @@
  - [:performing_arts: Front page Icons](#covers) 
  - [:scroll: The Quiz Page](#quiz) 
  - [:eyeglasses: Quiz progress & Tracking](#tracking) 
+ - [:globe_with_meridians: **Contribute with** Translations / Language](#translations)
+ - [:computer: **Contribute with** Coding / Bug Fixing](#contribute)
  - [:rocket: Deployment](#deploy) 
+
 
 ## [→→→ **:open_book: OPEN QUIZZES :open_book:** ← ← ← ](https://bandinopla.github.io/skill-assessments-quizzes/)
 
@@ -70,8 +73,26 @@ When the quiz page is rendered, the hook `useQuizSolvedState` recieves the ID of
 
 `pages/quiz/[...slug].js` then sets a Context that provides revelvant quiz info to the components of the quiz among some callbacks to handle user interaction.
 
+---
+## <a id="translations"></a>:globe_with_meridians: Translations / Language
+There are 2 sources of language dictionaries:
+1. the web app translation files (for the web app UI)
+2. the individual quizzes translation files (for the quiz itself)
 
+#### 1. System/UI language
+To translate for this web app, [fork this repo](https://github.com/bandinopla/skill-assessments-quizzes) make the translation and do a pull request.
+
+this web app can be translated by creating a [YAML](https://yaml.org/) file in the `l18n` folder named after the language that it is meant to translate. We use the [iso-language-codes](https://www.npmjs.com/package/iso-language-codes) package. We espect is a **[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)** code for the file name of each language file. Example: `es.yaml` for spanish...
+
+use the `en.yaml` as base: duplicate it, rename it, and do your thing. The system will automatically scan that folder and find it once it builds.
+
+#### 2. Quizzes Translations
+to collab with the quizzes repo and transalte a quiz to another language head over to the [linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) clone that repo, make the translation in the respective quiz and solicit a pull request to them.
+
+---
+## <a id="contribute"></a>:computer: **Contribute with** Coding / Bug Fixing
+To contribute with new mechanic or bug fixing for this web app, [fork this repo](https://github.com/bandinopla/skill-assessments-quizzes) do your thing and pull request.
 
 ---
 ## <a id="deploy"></a>:rocket: Deploying
-This webapp uses github actions. Any push into the main branch will automatically trigger a github page deploy. See `.github/workflows/deply.yml`
+This webapp uses github actions. Any push into the main branch will automatically trigger a github page deploy. See `.github/workflows/deploy.yml`

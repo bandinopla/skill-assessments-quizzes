@@ -1,13 +1,11 @@
 {
   "private": true,
-  "scripts": { 
-
+  "scripts": {
     "dev": "next dev",
     "export": "next export",
     "build": "next build",
-    "start": "next start",  
+    "start": "next start",
     "import-images": "node scripts/import-images.js"
-    
   },
   "dependencies": {
     "glob": "^8.0.3",
@@ -16,7 +14,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-markdown": "^8.0.3",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-syntax-highlighter": "^15.5.0",
+    "yaml": "^2.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
