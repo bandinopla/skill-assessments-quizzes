@@ -40,7 +40,7 @@ this will extract all images from the `data` folder, used by the quizzes, and co
 
 ---
 ## <a id="dev-start"></a>:hammer: Start developing
-This web app is meant to run on a directory called `skill-assessments-quizzes` so, run:
+This NextJs App is meant to run on a directory called `skill-assessments-quizzes` so, after running `yarn` and installing all dependencies, run:
 ```
 yarn dev
 ```
@@ -85,6 +85,12 @@ To translate for this web app, [fork this repo](https://github.com/bandinopla/sk
 this web app can be translated by creating a [YAML](https://yaml.org/) file in the `l18n` folder named after the language that it is meant to translate. We use the [iso-language-codes](https://www.npmjs.com/package/iso-language-codes) package. We espect is a **[ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)** code for the file name of each language file. Example: `es.yaml` for spanish...
 
 use the `en.yaml` as base: duplicate it, rename it, and do your thing. The system will automatically scan that folder and find it once it builds.
+
+To check if the translations are correct, you can run:
+
+```
+yarn test-translations
+```
 
 #### 2. Quizzes Translations
 to collab with the quizzes repo and transalte a quiz to another language head over to the [linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) fork that repo, make the translation in the respective quiz and solicit a pull request to them.
