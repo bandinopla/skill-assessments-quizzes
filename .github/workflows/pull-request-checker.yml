@@ -19,9 +19,10 @@ jobs:
         with:
           node-version: "lts/*"
           cache: "npm"
+        run: npm i --legacy-peer-deps 
+
+      - name: Run Tests  
+        run: npm run test  
 
       - name: Build
-        run: |
-          npm i --legacy-peer-deps 
-          npm run test
-          npm run build 
+        run: npm run build 

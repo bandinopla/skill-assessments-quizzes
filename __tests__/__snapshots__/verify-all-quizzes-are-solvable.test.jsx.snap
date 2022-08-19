@@ -1,0 +1,2128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visual UI Testing... Home Renders Correctly 1`] = `
+<div
+  className="container mx-auto "
+>
+  <div
+    className="bg-slate-50"
+  >
+    <div
+      className="container mx-auto px-12 "
+    >
+      <div
+        className="max-w-7xl mx-auto p-14 sm:px-6 lg:px-8"
+      >
+        <div
+          className=" p-10 bg-white shadow-lg relative"
+        >
+          <div
+            className="text-right text-sm"
+          >
+            <span
+              className="mx p-2  bg-slate-200 rounded font-bold"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+              >
+                English
+              </a>
+            </span>
+            <span
+              className="mx p-2 "
+            >
+              <a
+                href="/?lang=es"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+              >
+                Español
+              </a>
+            </span>
+          </div>
+          <h2
+            className="text-base text-indigo-600 font-semibold uppercase"
+          >
+            ALRIGHT! LET'S GOOO!
+          </h2>
+          <p
+            className="mt-2 mb-10 text-3xl font-extrabold tracking-tight text-gray-900 "
+          >
+            Skill Assessments Quizzes
+          </p>
+          <div
+            className="mt-2 mb-10 tracking-tight text-gray-900 "
+          >
+            <p>
+              Collection of questions and answers on different subjects aimed to help
+you test your knowledge before an important job interview!
+            </p>
+            
+
+            <p>
+              Data from 
+              <a
+                href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes"
+              >
+                github.com/Ebazhanov/linkedin-skill-assessments-quizzes
+              </a>
+              . UI by 
+              <a
+                href="https://github.com/bandinopla"
+              >
+                Bandinopla
+              </a>
+            </p>
+          </div>
+          <div
+            className="mb-4 text-center"
+          >
+            Filter by name: 
+            <input
+              className="bg-slate-200 p-2 rounded shadow text-cyan-800 m-x-4"
+              onKeyUp={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="clear-both overflow-hidden"
+          >
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="accounting"
+                  src="undefined/covers/accounting.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  accounting
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-acrobat"
+                  src="undefined/covers/adobe-acrobat.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-acrobat
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-illustrator"
+                  src="undefined/covers/adobe-illustrator.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-illustrator
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-in-design"
+                  src="undefined/covers/adobe-in-design.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-in-design
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-lightroom"
+                  src="undefined/covers/adobe-lightroom.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-lightroom
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-photoshop"
+                  src="undefined/covers/adobe-photoshop.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-photoshop
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-premiere-pro"
+                  src="undefined/covers/adobe-premiere-pro.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-premiere-pro
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="adobe-xd"
+                  src="undefined/covers/adobe-xd.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  adobe-xd
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="after-effects"
+                  src="undefined/covers/after-effects.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  after-effects
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="agile-methodologies"
+                  src="undefined/covers/agile-methodologies.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  agile-methodologies
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="android"
+                  src="undefined/covers/android.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  android
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="angular"
+                  src="undefined/covers/angular.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  angular
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="autocad"
+                  src="undefined/covers/autocad.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  autocad
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="autodesk-fusion-360"
+                  src="undefined/covers/autodesk-fusion-360.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  autodesk-fusion-360
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="aws-lambda"
+                  src="undefined/covers/aws-lambda.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  aws-lambda
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="aws"
+                  src="undefined/covers/aws.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  aws
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="bash"
+                  src="undefined/covers/bash.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  bash
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="c-(programming-language)"
+                  src="undefined/covers/c-(programming-language).jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  c-(programming-language)
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="c-sharp"
+                  src="undefined/covers/c-sharp.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  c-sharp
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="c++"
+                  src="undefined/covers/c++.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  c++
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="css"
+                  src="undefined/covers/css.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  css
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="cybersecurity"
+                  src="undefined/covers/cybersecurity.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  cybersecurity
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="django"
+                  src="undefined/covers/django.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  django
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="dotnet-framework"
+                  src="undefined/covers/dotnet-framework.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  dotnet-framework
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="eclipse"
+                  src="undefined/covers/eclipse.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  eclipse
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="front-end-development"
+                  src="undefined/covers/front-end-development.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  front-end-development
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="git"
+                  src="undefined/covers/git.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  git
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="go"
+                  src="undefined/covers/go.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  go
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="google-ads"
+                  src="undefined/covers/google-ads.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  google-ads
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="google-analytics"
+                  src="undefined/covers/google-analytics.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  google-analytics
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="google-cloud-platform"
+                  src="undefined/covers/google-cloud-platform.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  google-cloud-platform
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="hadoop"
+                  src="undefined/covers/hadoop.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  hadoop
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="html"
+                  src="undefined/covers/html.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  html
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="it-operations"
+                  src="undefined/covers/it-operations.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  it-operations
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="java"
+                  src="undefined/covers/java.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  java
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="javascript"
+                  src="undefined/covers/javascript.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  javascript
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="jquery"
+                  src="undefined/covers/jquery.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  jquery
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="json"
+                  src="undefined/covers/json.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  json
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="kotlin"
+                  src="undefined/covers/kotlin.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  kotlin
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="machine-learning"
+                  src="undefined/covers/machine-learning.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  machine-learning
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="matlab"
+                  src="undefined/covers/matlab.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  matlab
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="maven"
+                  src="undefined/covers/maven.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  maven
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-azure"
+                  src="undefined/covers/microsoft-azure.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-azure
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-excel"
+                  src="undefined/covers/microsoft-excel.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-excel
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-outlook"
+                  src="undefined/covers/microsoft-outlook.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-outlook
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-power-automate"
+                  src="undefined/covers/microsoft-power-automate.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-power-automate
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-power-bi"
+                  src="undefined/covers/microsoft-power-bi.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-power-bi
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-power-point"
+                  src="undefined/covers/microsoft-power-point.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-power-point
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-project"
+                  src="undefined/covers/microsoft-project.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-project
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-word"
+                  src="undefined/covers/microsoft-word.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-word
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="mongodb"
+                  src="undefined/covers/mongodb.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  mongodb
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="mysql"
+                  src="undefined/covers/mysql.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  mysql
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="node.js"
+                  src="undefined/covers/node.js.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  node.js
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="nosql"
+                  src="undefined/covers/nosql.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  nosql
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="objective-c"
+                  src="undefined/covers/objective-c.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  objective-c
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="oop"
+                  src="undefined/covers/oop.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  oop
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="php"
+                  src="undefined/covers/php.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  php
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="python"
+                  src="undefined/covers/python.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  python
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="quickbooks"
+                  src="undefined/covers/quickbooks.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  quickbooks
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="r"
+                  src="undefined/covers/r.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  r
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="react"
+                  src="undefined/covers/react.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  react
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="rest-api"
+                  src="undefined/covers/rest-api.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  rest-api
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="revit"
+                  src="undefined/covers/revit.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  revit
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="ruby-on-rails"
+                  src="undefined/covers/ruby-on-rails.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  ruby-on-rails
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="rust"
+                  src="undefined/covers/rust.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  rust
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="scala"
+                  src="undefined/covers/scala.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  scala
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="seo"
+                  src="undefined/covers/seo.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  seo
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="sharepoint"
+                  src="undefined/covers/sharepoint.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  sharepoint
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="solidworks"
+                  src="undefined/covers/solidworks.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  solidworks
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="spring-framework"
+                  src="undefined/covers/spring-framework.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  spring-framework
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="swift"
+                  src="undefined/covers/swift.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  swift
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="t-sql"
+                  src="undefined/covers/t-sql.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  t-sql
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="unity"
+                  src="undefined/covers/unity.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  unity
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="vba"
+                  src="undefined/covers/vba.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  vba
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="visio"
+                  src="undefined/covers/visio.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  visio
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="windows-server"
+                  src="undefined/covers/windows-server.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  windows-server
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="wordpress"
+                  src="undefined/covers/wordpress.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  wordpress
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="xml"
+                  src="undefined/covers/xml.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  xml
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
