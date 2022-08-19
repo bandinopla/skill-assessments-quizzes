@@ -1,0 +1,27 @@
+name: Test Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main 
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: "true"
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+
+      - name: Build
+        run: |
+          npm i --legacy-peer-deps 
+          npm run test
+          npm run build 

@@ -15,8 +15,7 @@ import { QuizContext, QuizContextParams } from "../../lib/QuizContext";
 import { useQuizSolvedState } from "../../lib/QuizSolvedState";
 import { getDictionary } from '../../lib/l18n';
 import { useLanguage } from '../../components/LanguageProvider';
-import Head from "next/head"
-import QuizQuestionOptions from '../../components/QuizQuestionOptions';
+import Head from "next/head" 
 
 
 const questionQueryName = 'question';
@@ -131,8 +130,7 @@ const Quiz = ({ quiz, availableLanguages }) => {
 					components={{
 						li: QuizQuestionItem,
 						code: QuizCodeSnipped,
-						img: QuizImageRef,
-                        ul: QuizQuestionOptions
+						img: QuizImageRef, 
 					}}
 				>
 					{quiz.questions[question - 1].text}
