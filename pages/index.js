@@ -17,9 +17,7 @@ export default function Home({ quizzes }) {
 	const [searchTerm, setSearchTerm] = useState("");
 	const router = useRouter();
 	const timer = useRef();
-    const dictionary = useLanguage()
-
-    console.log("DICTIONARY = ", dictionary)
+    const dictionary = useLanguage() 
 
 	const filterList = (term) => {
 		clearInterval(timer.current);
@@ -28,15 +26,7 @@ export default function Home({ quizzes }) {
 
 	return ( 
 			<BasicPageLayout preTitle={dictionary.CHEER} title={dictionary.TITLE}>
-				<div className="mt-2 mb-10 tracking-tight text-gray-900  ">
-					{/* Collection of questions and answers on different subjects aimed to help
-                    you test your knowledge before an important job interview!
-                    <br />
-                    Data from{" "}
-                    <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes">
-                        github.com/Ebazhanov/linkedin-skill-assessments-quizzes
-                    </a>
-                    . UI by <a href="https://github.com/bandinopla">Bandinopla</a> */}
+				<div className="mt-2 mb-10 tracking-tight text-gray-900  "> 
 
                     <ReactMarkdown>
                         {dictionary.DESC.replace(
