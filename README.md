@@ -1,5 +1,10 @@
 # Skills Assessments Quizzes 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END --> 
+
 ![Super](https://img.shields.io/badge/Super-Awesome-green)
+
 
 #### Contents
  - [:grey_question: How It Works](#how-it-works) 
@@ -102,3 +107,26 @@ To contribute with new mechanic or bug fixing for this web app, [fork this repo]
 ---
 ## <a id="deploy"></a>:rocket: Deploying
 This webapp uses github actions. Any push into the main branch will automatically trigger a github page deploy. See `.github/workflows/deploy.yml`
+
+---
+<a id="#contributors-"></a>
+## Contributors ✨
+
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/johnfelipe"><img src="https://avatars.githubusercontent.com/u/428820?v=4?s=100" width="100px;" alt=""/><br /><sub><b>felipe</b></sub></a><br /><a href="#ideas-johnfelipe" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
