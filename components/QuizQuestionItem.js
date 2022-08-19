@@ -17,15 +17,15 @@ export default function QuizQuestionItem({ children, ...props }) {
 	 */
 	const quizContext = useContext(QuizContext);
 	const optionIndex = useContext(OptionItemContext);
-    const myIndex = props.index; //++quizContext.optionIndex;
 
-    //
-    // we are a child of the option
-    //
-	if ( optionIndex != -1) {
+	//
+	// we are a child of the option
+	//
+	if (optionIndex != -1) {
 		return <>{children}</>;
-	} 
-	
+	}
+
+	const myIndex = ++quizContext.optionIndex; //props.index;
 	let bg = "bg-white";
 
 	//
@@ -39,9 +39,9 @@ export default function QuizQuestionItem({ children, ...props }) {
 		}
 	}
 
-    //
-    // When the use clicks the option to respond...
-    //
+	//
+	// When the use clicks the option to respond...
+	//
 	const onClick = () => {
 		if (quizContext.answered < 0) {
 			quizContext.onAnswer(myIndex);
