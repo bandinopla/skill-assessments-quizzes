@@ -1,6 +1,6 @@
 # Skills Assessments Quizzes 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 
 ![Super](https://img.shields.io/badge/Super-Awesome-green)
@@ -121,6 +121,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/johnfelipe"><img src="https://avatars.githubusercontent.com/u/428820?v=4?s=100" width="100px;" alt=""/><br /><sub><b>felipe</b></sub></a><br /><a href="#ideas-johnfelipe" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://z1n0v1.github.io/"><img src="https://avatars.githubusercontent.com/u/98004928?v=4?s=100" width="100px;" alt=""/><br /><sub><b>z1n0v1</b></sub></a><br /><a href="https://github.com/bandinopla/skill-assessments-quizzes/issues?q=author%3Az1n0v1" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
