@@ -47,10 +47,12 @@ export default function BasicPageLayout({
 								</h2>
 
 								{showLogo ? (
-									<Image
+									<img
 										src={router.basePath + "/logo.svg"}
 										width={400}
 										height={200}
+                                        title={title}
+                                        style={{display:"block", margin:"0 auto"}}
 									/>
 								) : (
 									<p className="mt-2 mb-10 text-3xl font-extrabold tracking-tight text-gray-900  ">
