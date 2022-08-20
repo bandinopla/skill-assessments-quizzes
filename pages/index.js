@@ -25,8 +25,8 @@ export default function Home({ quizzes }) {
 	};
 
 	return ( 
-			<BasicPageLayout preTitle={dictionary.CHEER} title={dictionary.TITLE}>
-				<div className="mt-2 mb-10 tracking-tight text-gray-900  "> 
+			<BasicPageLayout preTitle={dictionary.CHEER} title={dictionary.TITLE} showLogo>
+				<div className="text-base text-center mb-10 tracking-tight text-gray-900  "> 
 
                     <ReactMarkdown>
                         {dictionary.DESC.replace(
