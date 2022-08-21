@@ -44,18 +44,29 @@ exports[`Visual UI Testing... Home Renders Correctly 1`] = `
               </a>
             </span>
           </div>
-          <h2
-            className="text-base text-indigo-600 font-semibold uppercase"
-          >
-            ALRIGHT! LET'S GOOO!
-          </h2>
-          <p
-            className="mt-2 mb-10 text-3xl font-extrabold tracking-tight text-gray-900 "
-          >
-            Skill Assessments Quizzes
-          </p>
           <div
-            className="mt-2 mb-10 tracking-tight text-gray-900 "
+            className="text-center"
+          >
+            <h2
+              className=" text-xs text-indigo-600 font-semibold uppercase"
+            >
+              ALRIGHT! LET'S GOOO!
+            </h2>
+            <img
+              height={200}
+              src="undefined/logo.svg"
+              style={
+                Object {
+                  "display": "block",
+                  "margin": "0 auto",
+                }
+              }
+              title="Skill Assessments Quizzes"
+              width={400}
+            />
+          </div>
+          <div
+            className="text-base text-center mb-10 tracking-tight text-gray-900 "
           >
             <p>
               Collection of questions and answers on different subjects aimed to help
