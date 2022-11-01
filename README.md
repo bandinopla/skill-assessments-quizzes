@@ -17,6 +17,7 @@
  - [:eyeglasses: Quiz progress & Tracking](#tracking) 
  - [:globe_with_meridians: **Contribute with** Translations / Language](#translations)
  - [:computer: **Contribute with** Coding / Bug Fixing](#contribute)
+ - [:robot: Automated Testing / Validation](#testing)
  - [:rocket: Deployment](#deploy) 
 
 
@@ -104,6 +105,17 @@ to collab with the quizzes repo and transalte a quiz to another language head ov
 ---
 ## <a id="contribute"></a>:computer: **Contribute with** Coding / Bug Fixing
 To contribute with new mechanic or bug fixing for this web app, [fork this repo](https://github.com/bandinopla/skill-assessments-quizzes) do your thing and pull request.
+
+---
+## <a id="testing"></a>:robot: Testing / Verification
+There are 2 tests that will make sure everything is in order, you can run them doing:
+```
+npm run test
+```
+1. `__tests__/translations.test` will make sure any new translation file has all the espected dictionary keys. Run this if you make a new translation.
+2. `__tests__/veryfy-all-quizzes-are-solvable.test` will check that all quizzes have a solution. Run this if you want to make sure all quizzes have a solution.
+
+**Note:** if you make a change in the index page, you will have to run `npm test -- -u` to update the snapshots.  
 
 ---
 ## <a id="deploy"></a>:rocket: Deploying

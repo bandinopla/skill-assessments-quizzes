@@ -430,6 +430,32 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
+                  alt="arc-gis"
+                  src="undefined/covers/arc-gis.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  arc-gis
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
                   alt="autocad"
                   src="undefined/covers/autocad.jpg"
                 />
@@ -1106,6 +1132,32 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
+                  alt="keynote"
+                  src="undefined/covers/keynote.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  keynote
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
                   alt="kotlin"
                   src="undefined/covers/kotlin.jpg"
                 />
@@ -1113,6 +1165,58 @@ you test your knowledge before an important job interview!
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
                   kotlin
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="linux"
+                  src="undefined/covers/linux.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  linux
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="logic-pro"
+                  src="undefined/covers/logic-pro.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  logic-pro
                 </div>
               </div>
             </div>
@@ -1191,6 +1295,32 @@ you test your knowledge before an important job interview!
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
                   maven
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="microsoft-access"
+                  src="undefined/covers/microsoft-access.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  microsoft-access
                 </div>
               </div>
             </div>
@@ -1522,6 +1652,32 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
+                  alt="object-oriented-programming"
+                  src="undefined/covers/object-oriented-programming.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  object-oriented-programming
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
                   alt="objective-c"
                   src="undefined/covers/objective-c.jpg"
                 />
@@ -1548,13 +1704,13 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
-                  alt="oop"
-                  src="undefined/covers/oop.jpg"
+                  alt="php"
+                  src="undefined/covers/php.jpg"
                 />
                 <div
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
-                  oop
+                  php
                 </div>
               </div>
             </div>
@@ -1574,13 +1730,13 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
-                  alt="php"
-                  src="undefined/covers/php.jpg"
+                  alt="pro-tools"
+                  src="undefined/covers/pro-tools.jpg"
                 />
                 <div
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
-                  php
+                  pro-tools
                 </div>
               </div>
             </div>
@@ -1678,13 +1834,13 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
-                  alt="react"
-                  src="undefined/covers/react.jpg"
+                  alt="reactjs"
+                  src="undefined/covers/reactjs.jpg"
                 />
                 <div
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
-                  react
+                  reactjs
                 </div>
               </div>
             </div>
@@ -1834,13 +1990,13 @@ you test your knowledge before an important job interview!
                 }
               >
                 <img
-                  alt="seo"
-                  src="undefined/covers/seo.jpg"
+                  alt="search-engine-optimization"
+                  src="undefined/covers/search-engine-optimization.jpg"
                 />
                 <div
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
-                  seo
+                  search-engine-optimization
                 </div>
               </div>
             </div>
@@ -1867,6 +2023,32 @@ you test your knowledge before an important job interview!
                   className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
                 >
                   sharepoint
+                </div>
+              </div>
+            </div>
+            <div
+              className="float-left"
+            >
+              <div
+                className="relative m-1 shadow-md cursor-pointer hover:scale-110 hover:rotate-2 hover:border-8 border-amber-300 delay-50 transition-all"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "height": 100,
+                    "width": 100,
+                  }
+                }
+              >
+                <img
+                  alt="sketchup"
+                  src="undefined/covers/sketchup.jpg"
+                />
+                <div
+                  className="absolute bottom-0 left-0 bg-black/50 text-white text-xs p-1 "
+                >
+                  sketchup
                 </div>
               </div>
             </div>
