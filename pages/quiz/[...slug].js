@@ -16,6 +16,9 @@ import { useQuizSolvedState } from "../../lib/QuizSolvedState";
 import { getDictionary } from '../../lib/l18n';
 import { useLanguage } from '../../components/LanguageProvider';
 import Head from "next/head" 
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import 'katex/dist/katex.min.css' 
 
 
 const questionQueryName = 'question';
@@ -132,9 +135,12 @@ const Quiz = ({ quiz, availableLanguages }) => {
 						code: QuizCodeSnipped,
 						img: QuizImageRef, 
 					}}
+                    remarkPlugins={[remarkMath]}
+                    rehypePlugins={[rehypeKatex]}
 				>
 					{quiz.questions[question - 1].text}
 				</ReactMarkdown>
+           
 			</QuizContext.Provider>
 
 			<div className="mt-10 text-center ">
