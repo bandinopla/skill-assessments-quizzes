@@ -76,8 +76,23 @@ export default function QuizQuestionItem({ children, ...props }) {
 	// remove the flag we added to recognize quiz options (avoiding false identification of nested child list items...)
 	// @see <api.js>.parseQuiz
 	//
-	if (children[0].indexOf("%OPTION%") == 0) {
-		children[0] = children[0].replace("%OPTION%", "");
+
+
+	let childElements = {} 
+
+	if (typeof children === 'string') {
+
+		
+		// Case when 'children' is a string
+		if (children.indexOf("%OPTION%") === 0) {
+			childElements = children.replace("%OPTION%", "");
+		}
+	} else if (Array.isArray(children) && children.length > 0) {
+		// Case when 'children' is an array of strings
+		childElements = [ ...children ]
+		if (childElements[0].indexOf("%OPTION%") === 0) {
+			childElements[0] = childElements[0].replace("%OPTION%", "");
+		}
 	}
 
 	return (
@@ -90,7 +105,7 @@ export default function QuizQuestionItem({ children, ...props }) {
 		>
 			<OptionIndexContext.Provider value={true}>
 				{" "}
-				{children}{" "}
+				{childElements}{" "}
 			</OptionIndexContext.Provider>
 		</li>
 	);
